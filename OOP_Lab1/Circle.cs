@@ -10,6 +10,10 @@ namespace OOP_Lab1
     {
         double Radius { get; set; }
 
+        public Circle(double radius)
+        {
+            Radius = radius;
+        }
         public double GetArea()
         {
             double area = Radius * Radius * Math.PI;
